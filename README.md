@@ -1,4 +1,5 @@
-# election_analysis
+# Election Analysis
+Please note that the guideline for this analysis follows the README.md file that is presented when working through Module 3.
 
 ## Project Overview
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
@@ -13,20 +14,31 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Data Source: election_results.csv
 - Software: Python 3.9.7 Visual Studio Code, 1.63.2
 
-## Summary
-The analysis of the election show that:
-- There were "x" votes cast in the election.
-- The candidates were::
-    - Candidate 1
-    - Candidate 2
-    - Candidate 3
+## Results
+The analysis of the election shows that:
+- There were 369,711 total votes cast in the election.
+- The counties where the votes were collected were:
+    - Jefferson County
+    - Denver County
+    - Arapahoe County
+- The results for each county were:
+    - Jefferson County accounted for 10.5% of the vote and 38,855 number of votes.
+    - Denver County accounted 82.8% of the vote and 306,055 number of votes.
+    - Arapahoe County accounted for 6.7% of the vote and 24,801 number of votes.
+- The county with the largest number of votes was:
+    - Denver County with 82.8% of the vote and 306,055 number of votes.
+- The candidates were:
+    - Charles Casper Stockham
+    - Diana DeGette
+    - Raymon Anthony Doane
 - The candidate results were:
-    - Candidate 1 received "x%" of the vote and "y" number of votes.
-    - Candidate 2 received "x%" of the vote and "y" number of votes.
-    - Candidate 3 received "x%" of the vote and "y" number of votes.
+    - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+    - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+    - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 - The winner of the election was:
-    - Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes.
+    - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
-## Challenge Overview
-
-## Challenge Summary
+## Summary
+This script can truly be used for any election. It was able to determine on its own how many different candidates and counties were in the results. It also tallied the votes for each candidate, determined the winning candidate from the total votes, and find which county had the most effect on the outcome of the election. Some modifications that can be made to the script to make it more robust is:
+- To load more than one file of data. This would help us increase our sample size and give us a more clear and honest outcome.
+- We also have the possibility of breaking down the data even more. With this we can display the voter's political views, gender, ethnicity and race, and age for example. We can also display which political party each candidate belongs to, their age, experience, and primary stances on controversial topics.
